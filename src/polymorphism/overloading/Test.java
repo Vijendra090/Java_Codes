@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.overloading;
 
 public class Test {
     public static void main(String [] args){
