@@ -25,8 +25,8 @@ public class Test {
     public static void main(String [] args){
         Base base = new Child();
         Child child = new Child();
-        base.display();
+        base.display();     //base class static method is called
         base.display1();
-        child.display();
+        child.display();    //child class static method is called
     }
 }
