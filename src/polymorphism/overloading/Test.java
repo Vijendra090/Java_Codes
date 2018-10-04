@@ -16,8 +16,8 @@ class Child extends Base{
         System.out.println("Child static method");
     }
 
-    public void display1(){
-        System.out.println("Child instance method");
+    public void display1(int x){
+        System.out.println("Child instance method and X = "+x);
     }
 }
 
@@ -28,5 +28,6 @@ public class Test {
         base.display();     //base class static method is called
         base.display1();
         child.display();    //child class static method is called
+        child.display1(10);
     }
 }

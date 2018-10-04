@@ -14,7 +14,7 @@ class Bike extends Veichle{
 }
 public class MethodOverridingDemo {
     public static void main(String[] args){
-        Bike obj = new Bike();
+        Veichle obj = new Bike();   //runtime polymorphism
         obj.run();
     }
 
