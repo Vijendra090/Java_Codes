@@ -24,7 +24,6 @@ class Dog extends Animal{   //in real senario, implementation is provided by oth
     void sound() {
         System.out.println("Dogs is Barking");
     }
-
 }
 
 public class AbstractionDemo {
