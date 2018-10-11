@@ -24,6 +24,10 @@ class Dog extends Animal{   //in real senario, implementation is provided by oth
     void sound() {
         System.out.println("Dogs is Barking");
     }
+
+    static void danger(){
+        System.out.println("Dogs are not danger");
+    }
 }
 
 public class AbstractionDemo {
@@ -31,6 +35,8 @@ public class AbstractionDemo {
         Animal animal = new Dog();  //In real scenario, object is provided through method, e.g getAnimal() method.
         animal.sound(); //in real scenario method is called by programmer or user
         animal.walking();
-        Animal.danger();
+        animal.danger();
+        Dog dog = new Dog();
+        dog.danger();
     }
 }
